@@ -1,4 +1,4 @@
-package AdvancedConditionalStatements;
+package AdvancedConditionalStatements.Lab;
 
 import java.util.Scanner;
 

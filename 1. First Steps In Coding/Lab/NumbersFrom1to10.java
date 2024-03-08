@@ -1,4 +1,4 @@
-package FirstStepsInCoding;
+package FirstStepsInCoding.Lab;
 
 public class NumbersFrom1to10
 {
