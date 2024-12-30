@@ -1,5 +1,5 @@
 ![logo](https://github.com/viktorpetrov1997/Programming-Fundamentals-Java/assets/126717931/70482e4e-46c0-4f53-9db2-a2676a0b4b6b)
-# Programming basics in Java
+# Programming Basics with Java
 ## Course description
 The "Programming Basics" course provides the initial programming skills necessary for all technology majors at SoftUni. This includes writing entry-level programming code (basic coding skills), working with a development environment (IDE), using variables and data, operators and expressions, working with the console (reading input and printing results), using of conditional constructions (if, if-else) and loops (for, while, do-while).
 ## Course content
