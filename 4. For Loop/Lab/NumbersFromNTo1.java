@@ -2,13 +2,15 @@ package ForLoop.Lab;
 
 import java.util.Scanner;
 
-public class NumbersFrom1To100
+public class NumbersFromNTo1
 {
     public static void main(String[] args)
     {
         Scanner scanner = new Scanner(System.in);
 
-        for(int i = 1; i <= 100; i++)
+        int n = Integer.parseInt(scanner.nextLine());
+
+        for(int i = n; i >= 1; i--)
         {
             System.out.println(i);
         }
