@@ -15,13 +15,13 @@ public class OnTimeForTheExam
 
         int examTimeInMinutes = examHour * 60 + examMinute;
         int arrivalTimeInMinutes = arrivalHour * 60 + arrivalMinute;
-        int difference = arrivalTimeInMinutes - examTimeInMinutes;
+        int difference = examTimeInMinutes - arrivalTimeInMinutes;
 
-        if(difference > 0)
+        if(difference < 0)
         {
             System.out.println("Late");
         }
-        else if(difference >= -30)
+        else if(difference <= 30)
         {
             System.out.println("On time");
         }

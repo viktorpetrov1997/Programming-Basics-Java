@@ -12,6 +12,6 @@ public class ConcatenateData
         int age = Integer.parseInt(scanner.nextLine());
         String town = scanner.nextLine();
 
-        System.out.printf("You are %s %s, a %d-years old person from %s.",firstName, lastName, age, town);
+        System.out.printf("You are %s %s, a %d-years old person from %s.", firstName, lastName, age, town);
     }
 }

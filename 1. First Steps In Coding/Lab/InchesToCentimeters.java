@@ -9,6 +9,6 @@ public class InchesToCentimeters
         Scanner scanner = new Scanner(System.in);
         double inches = Double.parseDouble(scanner.nextLine());
         double inchesToCentimeters = inches * 2.54;
-        System.out.printf("%.2f",inchesToCentimeters);
+        System.out.printf("%.2f", inchesToCentimeters);
     }
 }

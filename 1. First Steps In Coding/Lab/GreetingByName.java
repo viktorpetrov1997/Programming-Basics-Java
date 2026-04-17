@@ -1,6 +1,5 @@
 package FirstStepsInCoding.Lab;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class GreetingByName
@@ -9,6 +8,6 @@ public class GreetingByName
     {
         Scanner scanner = new Scanner(System.in);
         String name = scanner.nextLine();
-        System.out.printf("Hello, %s!",name);
+        System.out.printf("Hello, %s!", name);
     }
 }
