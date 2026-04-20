@@ -2,7 +2,7 @@ package FirstStepsInCoding.MoreExercises;
 
 import java.util.Scanner;
 
-public class Fishland
+public class FishLand
 {
     public static void main(String[] args)
     {

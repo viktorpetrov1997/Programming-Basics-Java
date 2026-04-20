@@ -24,7 +24,7 @@ public class WorldSwimmingRecord
         }
         else
         {
-            System.out.printf("Yes, he succeeded! The new world record is %.2f seconds.",timeForEntireSwimWithDelay);
+            System.out.printf("Yes, he succeeded! The new world record is %.2f seconds.", timeForEntireSwimWithDelay);
         }
     }
 }

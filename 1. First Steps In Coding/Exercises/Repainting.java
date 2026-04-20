@@ -20,6 +20,7 @@ public class Repainting
         double totalPrice = priceForSafetyNylon + priceForPaint + priceForPaintThinner + bagPrice;
         double sumForWork = (totalPrice * 0.3) * hoursWork;
         double finalPrice = totalPrice + sumForWork;
+
         System.out.println(finalPrice);
     }
 }

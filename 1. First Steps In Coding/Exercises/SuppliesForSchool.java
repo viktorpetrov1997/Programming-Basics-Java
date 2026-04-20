@@ -18,6 +18,7 @@ public class SuppliesForSchool
         double priceForChalkboardCleaner = litersOfChalkboardCleaner * 1.2;
         double totalPrice = priceForMarkers + priceForPens + priceForChalkboardCleaner;
         double totalPriceAfterDiscount = totalPrice - (totalPrice * percentDiscount / 100);
+
         System.out.println(totalPriceAfterDiscount);
     }
 }

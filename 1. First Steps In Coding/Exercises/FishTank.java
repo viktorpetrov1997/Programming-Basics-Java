@@ -15,6 +15,7 @@ public class FishTank
         double volume = length * width * height;
         double volumeInLiters = volume * 0.001;
         double neededLiters = volumeInLiters * (1 - (percent / 100));
+
         System.out.println(neededLiters);
     }
 }

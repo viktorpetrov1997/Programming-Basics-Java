@@ -2,14 +2,15 @@ package FirstStepsInCoding.Lab;
 
 import java.util.Scanner;
 
-public class GreetingByName
+public class SquareArea
 {
     public static void main(String[] args)
     {
         Scanner scanner = new Scanner(System.in);
 
-        String name = scanner.nextLine();
+        int a = Integer.parseInt(scanner.nextLine());
+        int area = a * a;
 
-        System.out.printf("Hello, %s!", name);
+        System.out.println(area);
     }
 }

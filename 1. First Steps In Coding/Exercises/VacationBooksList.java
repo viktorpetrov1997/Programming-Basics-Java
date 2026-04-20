@@ -14,6 +14,7 @@ public class VacationBooksList
 
         int timeToReadBook = numberOfPages / pagesForOneHour;
         int hoursForOneDay = timeToReadBook / numberOfDays;
+
         System.out.println(hoursForOneDay);
     }
 }

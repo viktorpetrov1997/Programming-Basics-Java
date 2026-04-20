@@ -25,11 +25,11 @@ public class GodzillaVsKong
 
         if(totalPriceForMovie <= budget)
         {
-            System.out.printf("Action!\nWingard starts filming with %.2f leva left.",budget - totalPriceForMovie);
+            System.out.printf("Action!\nWingard starts filming with %.2f leva left.", budget - totalPriceForMovie);
         }
         else
         {
-            System.out.printf("Not enough money!\nWingard needs %.2f leva more.",totalPriceForMovie - budget);
+            System.out.printf("Not enough money!\nWingard needs %.2f leva more.", totalPriceForMovie - budget);
         }
     }
 }

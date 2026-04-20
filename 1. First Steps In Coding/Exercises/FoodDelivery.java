@@ -19,6 +19,7 @@ public class FoodDelivery
         double priceForDesert = totalMenusPrice * 0.2;
         double deliveryPrice = 2.5;
         double totalPrice = totalMenusPrice + priceForDesert + deliveryPrice;
+
         System.out.println(totalPrice);
     }
 }
