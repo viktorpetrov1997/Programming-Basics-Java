@@ -38,11 +38,11 @@ public class OnTimeForTheExam
 
             if(hours > 0)
             {
-                System.out.printf("%d:%02d hours %s the start\n", hours, minutes, difference > 0 ? "after" : "before");
+                System.out.printf("%d:%02d hours %s the start\n", hours, minutes, difference > 0 ? "before" : "after");
             }
             else
             {
-                System.out.printf("%d minutes %s the start\n", minutes, difference > 0 ? "after" : "before");
+                System.out.printf("%d minutes %s the start\n", minutes, difference > 0 ? "before" : "after");
             }
         }
     }
