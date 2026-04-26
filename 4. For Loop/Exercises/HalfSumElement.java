@@ -10,19 +10,32 @@ public class HalfSumElement
 
         int n = Integer.parseInt(scanner.nextLine());
 
-        int max = Integer.MIN_VALUE;
-        int sum = 0;
+        int maxNumber = Integer.MIN_VALUE;
+        int sumOfNumbers = 0;
 
-        for(int i = 1; i <= n; i++)
+        for(int i = 0; i < n; i++)
         {
             int number = Integer.parseInt(scanner.nextLine());
 
-            sum += number;
+            sumOfNumbers += number;
 
-            if(number > max)
+            if(number > maxNumber)
             {
-                max = number;
+                maxNumber = number;
             }
+        }
+
+        int sumWithoutMaxNumber = sumOfNumbers - maxNumber;
+
+        if(sumWithoutMaxNumber == maxNumber)
+        {
+            System.out.println("Yes");
+            System.out.printf("Sum = %d", maxNumber);
+        }
+        else
+        {
+            System.out.println("No");
+            System.out.printf("Diff = %d", Math.abs(maxNumber - sumWithoutMaxNumber));
         }
     }
 }
